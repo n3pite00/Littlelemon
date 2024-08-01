@@ -10,7 +10,7 @@ Project test URL endpoints:
 /restaurant/
 <br>
 
-*Menu items:*
+*Menu items (IsAuthenticated):*
 <br>
 /restaurant/menu/
 <br>
@@ -30,7 +30,7 @@ for example:
 /restaurant/booking/tables/
 <br>
 
-*Djoser authentications:*
+*Djoser authentication and registration:*
 <br>
 /auth/users/
 
