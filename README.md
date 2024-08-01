@@ -1,5 +1,4 @@
 # Coursera Capstone project
-<br><br>
 This is a coursera project meant for back-end Developer Capstone -course.
 <br>
 
