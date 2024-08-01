@@ -5,7 +5,7 @@ from rest_framework import serializers
 class MenuItemSerializer(serializers.ModelSerializer):
     class Meta:
         model = MenuItem
-        fields = ['id', 'Name', 'No_of_guests', 'BookingDate']
+        fields = ['id', 'Title', 'Price', 'Inventory']
 
 class BookingSerializer(serializers.ModelSerializer):
     class Meta:
