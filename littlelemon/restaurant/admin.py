@@ -1,9 +1,9 @@
 from django.contrib import admin
-from .models import Menu, Booking
+from .models import MenuItem, Booking
 
 # Register your models here.
 
-@admin.register(Menu)
+@admin.register(MenuItem)
 class MenuAdmin(admin.ModelAdmin):
     list_display = (id, 'Name', 'No_of_guests', 'BookingDate')
 
